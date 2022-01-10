@@ -1,10 +1,9 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
+"use strict";
 
-module.exports = {
-  /* Your site config here */
-  plugins: [],
-};
+const { register } = require("esbuild-register/dist/node");
+
+register({
+  target: "node16",
+});
+
+module.exports = require("./config/gatsby-config.ts");

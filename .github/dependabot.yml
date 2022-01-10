@@ -1,0 +1,48 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      timezone: "Asia/Tokyo"
+      interval: "daily"
+      time: "03:00"
+    target-branch: "dev"
+    allow:
+      - dependency-type: "all"
+    #    FIXME
+    assignees:
+      - "ktnkk"
+    commit-message:
+      prefix: "npm"
+      include: "scope"
+    labels:
+      - ":tea:"
+      - ":construction_worker_woman:"
+    milestone: 1
+    open-pull-requests-limit: 20
+    pull-request-branch-name:
+      separator: /
+    rebase-strategy: "auto"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      timezone: "Asia/Tokyo"
+      interval: "daily"
+      time: "03:00"
+    target-branch: "dev"
+    allow:
+      - dependency-type: "all"
+    #    FIXME
+    assignees:
+      - "ktnkk"
+    commit-message:
+      prefix: "docker"
+      include: "scope"
+    labels:
+      - ":whale:"
+      - ":construction_worker_woman:"
+    milestone: 1
+    open-pull-requests-limit: 10
+    pull-request-branch-name:
+      separator: /
+    rebase-strategy: "auto"

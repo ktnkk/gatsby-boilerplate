@@ -1,0 +1,9 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "textlint-rule-preset-ja-technical-writing": true,
+    "textlint-rule-no-dead-link": true
+  }
+}

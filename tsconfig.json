@@ -1,0 +1,15 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  }
+}

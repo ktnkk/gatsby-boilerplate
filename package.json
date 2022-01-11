@@ -1,23 +1,24 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-starter",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Keiten Kiki <ktnkk@pm.me>",
+  "homepage": "https://github.com/ktnkk/gatsby-starter#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktnkk/gatsby-starter/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:ktnkk/gatsby-starter.git"
   },
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "prepare": "husky install"
-  },
+  "keywords": [
+    "dokcer",
+    "typescript",
+    "gatsby"
+  ],
+  "main": "n/a",
   "dependencies": {
     "gatsby": "^4.4.0",
     "gatsby-plugin-typegen": "^2.2.4",
@@ -51,7 +52,15 @@
     "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "typescript": "^4.5.4"
   },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "fmt": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,md}\"",
+    "lint:es": "eslint .",
+    "lint:txt": "textlint \"**/*.md\" && textlint --cache \"**/*.md\"",
+    "lint:md": "markdownlint --fix \"**/*.md\"",
+    "prepare": "husky install"
   }
 }

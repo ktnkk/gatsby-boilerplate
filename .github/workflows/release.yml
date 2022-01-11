@@ -13,8 +13,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "16.13.0"
-      - name: Clean dependencies
-        run: yarn cache clean
       - name: Install dependencies
         run: yarn --frozen-lockfile
       - name: Release

@@ -61,6 +61,7 @@
     "lint:es": "eslint .",
     "lint:txt": "textlint \"**/*.md\" && textlint --cache \"**/*.md\"",
     "lint:md": "markdownlint --fix \"**/*.md\"",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "prepare": "husky install"
   }
 }

@@ -1,2 +1,3 @@
 .cache
 public
+types/gatsby-types.d.ts

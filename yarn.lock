@@ -3825,12 +3825,12 @@ babel-plugin-polyfill-regenerator@^0.3.0:
     "@babel/helper-define-polyfill-provider" "^0.3.0"
 
 babel-plugin-remove-graphql-queries@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-4.4.0.tgz#6f301477a4b617253b877455fb54a9eb9c58f026"
-  integrity sha512-wxDR1WrpLbF0qyXvNBsGKYLJk+Z7nG8+UM+bEeyxi7YepwVjgfm4CFQgbSytQbk0X+qGRCqpmq4VZVIxVTyGYQ==
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-4.5.0.tgz#fbd4a8f8b051e02d1a29e9e5cbcf6b3d7eb91335"
+  integrity sha512-IzKelZCZ4XrbO+Dzlr/U8pNqtUkluE3wkciMDaaOGS1GglVm8p3f0Gsca+U3upevS4VTwjrGmiSkBpgMJelu8g==
   dependencies:
     "@babel/runtime" "^7.15.4"
-    gatsby-core-utils "^3.4.0"
+    gatsby-core-utils "^3.5.0"
 
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"

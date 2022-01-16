@@ -601,8 +601,18 @@ type SitePluginGroupConnection {
 }
 
 type SiteSiteMetadata {
+  author: String
+  copyright: String
   description: String
+  image: String
+  siteUrl: String
+  social: SiteSiteMetadataSocial
   title: String
+}
+
+type SiteSiteMetadataSocial {
+  github: String
+  twitter: String
 }
 
 enum DirectoryFieldsEnum {
@@ -1028,7 +1038,13 @@ enum SiteFieldsEnum {
   pathPrefix
   polyfill
   port
+  siteMetadata___author
+  siteMetadata___copyright
   siteMetadata___description
+  siteMetadata___image
+  siteMetadata___siteUrl
+  siteMetadata___social___github
+  siteMetadata___social___twitter
   siteMetadata___title
 }
 
@@ -1623,8 +1639,18 @@ input SitePluginSortInput {
 }
 
 input SiteSiteMetadataFilterInput {
+  author: StringQueryOperatorInput
+  copyright: StringQueryOperatorInput
   description: StringQueryOperatorInput
+  image: StringQueryOperatorInput
+  siteUrl: StringQueryOperatorInput
+  social: SiteSiteMetadataSocialFilterInput
   title: StringQueryOperatorInput
+}
+
+input SiteSiteMetadataSocialFilterInput {
+  github: StringQueryOperatorInput
+  twitter: StringQueryOperatorInput
 }
 
 input SiteSortInput {

@@ -8,6 +8,12 @@ const _siteMetaData: SiteMetaData = {
   title: name,
   description: "",
   author: "",
+  copyright: `${new Date().getFullYear()} © example`,
+  image: "https://miyauchi.dev/logo.svg",
+  social: {
+    twitter: "@example",
+    github: "example",
+  },
 };
 
 const siteMetadata: GatsbyConfig["siteMetadata"] = _siteMetaData;

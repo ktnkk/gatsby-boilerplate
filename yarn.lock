@@ -7797,9 +7797,9 @@ gatsby-graphiql-explorer@^2.5.0:
     "@babel/runtime" "^7.15.4"
 
 gatsby-legacy-polyfills@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-2.5.0.tgz#81ba2b642aeac4f95369a657d874068214ee3494"
-  integrity sha512-AtHkcpa7S9E9aAOn0ca9eP3fVh5VVE5s8iD+LMx3zzZGcxZBdh6z7FVx8qWxsQXCO33Be4U/r49EFLc3koti+A==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-2.6.0.tgz#a8296427eb3218d84e2df645a49ab0a8997b2d88"
+  integrity sha512-SbZ9s1bUKJo/ED41MMZx16Oh2DaRBuzQ20WRub995RqqthIGXA5oEv/64hNgBWjkuYZdqu+XtACr6Rscd6QXKw==
   dependencies:
     "@babel/runtime" "^7.15.4"
     core-js-compat "3.9.0"

@@ -8067,9 +8067,9 @@ gatsby-plugin-typescript@^4.6.0:
     babel-plugin-remove-graphql-queries "^4.7.0"
 
 gatsby-plugin-utils@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.0.0.tgz#2f19eaf5f43cacd74c1edfe4f46385f1694e8c79"
-  integrity sha512-hZj64WQbs/KgAWez3oWMwlmhewUinXDJJdhj491vOWX2WVlH79m8JpAoklgrm9xaoIdhfbNkhQoMKPkRZKJpJQ==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.1.0.tgz#56abcc826786ae035a8edd0e652c492bd7b8f40e"
+  integrity sha512-OvRhIKzjaz3WOo/dxSI90ZlclsO2xaj1Dz7vigU2QGPAe8JtRJbNTpgfBZ+JOBeVnDONNbZulVn8S8F/Ra/BZA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     joi "^17.4.2"

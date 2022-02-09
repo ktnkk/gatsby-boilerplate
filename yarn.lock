@@ -7911,25 +7911,7 @@ gatsby-cli@^4.6.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.6.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.7.0.tgz#edc928d948a3672d3166b914225a70369325818e"
-  integrity sha512-CboIzpEFbaD4+WrozKl3fMpxUetcaDq0aWPfrfzAtc8l0JMlD3GS2Q/uW7HpcvTAlSGv2ZomTzd2ySLV/AgpTQ==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fastq "^1.13.0"
-    file-type "^16.5.3"
-    fs-extra "^10.0.0"
-    got "^11.8.3"
-    lock "^1.1.0"
-    node-object-hash "^2.3.10"
-    proper-lockfile "^4.1.2"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
-gatsby-core-utils@^3.7.0:
+gatsby-core-utils@^3.6.0, gatsby-core-utils@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.7.0.tgz#edc928d948a3672d3166b914225a70369325818e"
   integrity sha512-CboIzpEFbaD4+WrozKl3fMpxUetcaDq0aWPfrfzAtc8l0JMlD3GS2Q/uW7HpcvTAlSGv2ZomTzd2ySLV/AgpTQ==
@@ -7985,10 +7967,10 @@ gatsby-page-utils@^2.6.0:
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-google-tagmanager@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-4.6.0.tgz#d790258ffd3797553149084907277a623ec58b99"
-  integrity sha512-zmAXj+Wrzxj61MP6xNGbkxlRZa/Q46pdTjr8F6pJa0m+sT+mBL1Wa5KhG1ZjZ38W5BP/u4/z4zy2ZMerrAemfw==
+gatsby-plugin-google-tagmanager@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-4.7.0.tgz#bcf7c24b1463f8f1293f4f82d4728771008c23f3"
+  integrity sha512-Li8LG6v8T0/2H7XqEaBNCQ4ezncRdwejSZqUWJwRYiTyb97RsqC4TsITtA1Bms3BZR40VuYMrH5Yb/34xYynvQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     web-vitals "^1.1.2"

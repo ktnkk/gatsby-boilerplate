@@ -16190,7 +16190,7 @@ textlint-rule-helper@^1.1.5:
   dependencies:
     unist-util-visit "^1.1.0"
 
-textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1, textlint-rule-helper@^2.2.0:
+textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1, textlint-rule-helper@^2.2.0, textlint-rule-helper@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.2.1.tgz#fe223d4a6c492b9aaf6e8a33fca5ad8a02e4e027"
   integrity sha512-pdX3uNbFzQTgINamaBpEHRT/MgROHev5wCnQnUTXRLT5DaRjls0Rmpi5d1MPZG6HT5NKVL++Q2J0FUbh5shi3Q==
@@ -16216,15 +16216,15 @@ textlint-rule-ja-no-mixed-period@^2.1.1:
     textlint-rule-helper "^2.0.0"
 
 textlint-rule-ja-no-redundant-expression@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-redundant-expression/-/textlint-rule-ja-no-redundant-expression-4.0.0.tgz#5385a58424dc4b8ec48edc0f5eb0864c9f2bcf4d"
-  integrity sha512-Wb6g/uwd7fL3v+BCvOMuiQONdL1JSvrDVnM4k5X7guQQggmA8R0lWCFZZuMUO5Mb0VuDX9bYptJL5AblzR1YVg==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-redundant-expression/-/textlint-rule-ja-no-redundant-expression-4.0.1.tgz#a146107100523eef51c88bd36c393f41527d4bc5"
+  integrity sha512-r8Qe6S7u9N97wD0gcrASqBUdZs5CMEVlgc8Ul+D2NQFiOi1BoseOMo5I9yUsEZMAL46yh/eaw9+EWz6IDlPWeA==
   dependencies:
     "@textlint/regexp-string-matcher" "^1.1.0"
     kuromojin "^3.0.0"
     morpheme-match "^2.0.4"
     morpheme-match-all "^2.0.5"
-    textlint-rule-helper "^2.1.1"
+    textlint-rule-helper "^2.2.1"
     textlint-util-to-string "^3.1.1"
 
 textlint-rule-ja-no-successive-word@^2.0.0:

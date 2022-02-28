@@ -7944,16 +7944,16 @@ gatsby-link@^4.7.1:
     gatsby-page-utils "^2.8.0"
     prop-types "^15.7.2"
 
-gatsby-page-utils@^2.7.0, gatsby-page-utils@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-2.8.0.tgz#9c9bccdad0c3fb0f4b679149cb79b59f38e3406c"
-  integrity sha512-eY0jRYHmW2+O5y4yRROz6H6NG5gHkq/11wkTimLRj6W04nh5jSuajL+/U21+o0OoFJ8jm0L8GZhPqOVwwIczNw==
+gatsby-page-utils@^2.7.0, gatsby-page-utils@^2.8.0, gatsby-page-utils@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-2.8.1.tgz#fd2cb83212dd6db67e57ac41c586b7252ae2bbe9"
+  integrity sha512-namuqulIjGjNnazR52BJwLDyyJ219pZCnNUB8qCOxns1mB3sGUAheEISnNwUZPgxj/dL1GQR19YtlK6jqPkEyA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     bluebird "^3.7.2"
     chokidar "^3.5.2"
     fs-exists-cached "^1.0.0"
-    gatsby-core-utils "^3.8.0"
+    gatsby-core-utils "^3.8.1"
     glob "^7.2.0"
     lodash "^4.17.21"
     micromatch "^4.0.4"
@@ -7967,19 +7967,19 @@ gatsby-plugin-google-tagmanager@^4.8.0:
     web-vitals "^1.1.2"
 
 gatsby-plugin-page-creator@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.7.0.tgz#7139b6fc8d61dfccffb68fdb7221a2713d2bc5a7"
-  integrity sha512-vBaCt+O1G7+ArX/KcYE0CA9Zho2kSvGey09KqBa6i6+K2vi/EAqELV7NyczpkQacuwck1WJyg/N/NjRRXVVEgw==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.8.1.tgz#373f9535b79b8e360456605134fb49b0ec643231"
+  integrity sha512-4g3fNQmlhxV/vqsXbYW1gKuOi960CcqoCOGfcesh3oThHQ5IiT0xJX9YtStU+Q7M7QvjUM1ZcTwBQzSKD4mTPw==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@babel/traverse" "^7.15.4"
     "@sindresorhus/slugify" "^1.1.2"
     chokidar "^3.5.2"
     fs-exists-cached "^1.0.0"
-    gatsby-core-utils "^3.7.0"
-    gatsby-page-utils "^2.7.0"
-    gatsby-plugin-utils "^3.1.0"
-    gatsby-telemetry "^3.7.0"
+    gatsby-core-utils "^3.8.1"
+    gatsby-page-utils "^2.8.1"
+    gatsby-plugin-utils "^3.2.0"
+    gatsby-telemetry "^3.8.1"
     globby "^11.0.4"
     lodash "^4.17.21"
 
@@ -8039,7 +8039,7 @@ gatsby-plugin-typescript@^4.7.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.7.0"
 
-gatsby-plugin-utils@^3.1.0:
+gatsby-plugin-utils@^3.1.0, gatsby-plugin-utils@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.2.0.tgz#2d5771ead692553c5faa2886ccb57f18cd1efa98"
   integrity sha512-5zCd0RJnbpaYzKr8kGaGfuPj9Hygi3luiCN8bnN1zVnieaJlRsh+k7BF6ukuG+2qk7USjwQHxzKP9QqAVmOR4g==

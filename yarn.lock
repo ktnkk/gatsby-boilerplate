@@ -7979,9 +7979,9 @@ gatsby-core-utils@^3.7.0, gatsby-core-utils@^3.8.0, gatsby-core-utils@^3.8.1:
     xdg-basedir "^4.0.0"
 
 gatsby-graphiql-explorer@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.7.0.tgz#83eadb46098fffef66eecea1c1394df593969ee8"
-  integrity sha512-/WCbynMm6YJtiZH8KBcTuvIHTbI/0K+Yqwh6y/qWB2wJdHf7rpzDmfEqvR8G5XtQpmqZcj4QSAptJMlwwWju9A==
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.9.0.tgz#ae462eaee48a0d224d4b0a7a72801ad80fe790d0"
+  integrity sha512-eRWdxITmnlT3RAILn6e5aq8dmOdBPwzx/TviqtR/OsY4M7NXxwYiOHUH1DOx4rHwGgtOFs+nWurM4fLHLcMwiw==
   dependencies:
     "@babel/runtime" "^7.15.4"
 

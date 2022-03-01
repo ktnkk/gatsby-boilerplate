@@ -10446,13 +10446,13 @@ libnpmorg@^1.0.1:
     npm-registry-fetch "^4.0.0"
 
 libnpmpack@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-3.1.0.tgz#de9823cf6d595f5630151d5aa44efc7aeb28b183"
-  integrity sha512-dO0ER8L6TPINOSyCAy/XTwsKIz42Bg+SB1XX9zCoaHimP7oqzV7O8PJGoPfEduLt8zidwu8oNW3nYrA43M6VCQ==
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-4.0.0.tgz#e67d9a0ee688d7b76ea8730be8ffb150ca8e55e5"
+  integrity sha512-5nz8xEJMFj+C9EtmgY00xwbRzOlUC4yNiTulLet5YUPNJL5euJ7aK0piUWEznfN2bPwghX+Jv8h+QNGTL3I8MA==
   dependencies:
-    "@npmcli/run-script" "^2.0.0"
-    npm-package-arg "^8.1.0"
-    pacote "^12.0.0"
+    "@npmcli/run-script" "^3.0.0"
+    npm-package-arg "^9.0.0"
+    pacote "^13.0.2"
 
 libnpmpublish@*:
   version "5.0.0"
@@ -12227,7 +12227,7 @@ npm-package-arg@*, npm-package-arg@^9.0.0:
     semver "^5.6.0"
     validate-npm-package-name "^3.0.0"
 
-npm-package-arg@^8.0.0, npm-package-arg@^8.0.1, npm-package-arg@^8.1.0, npm-package-arg@^8.1.2, npm-package-arg@^8.1.5:
+npm-package-arg@^8.0.0, npm-package-arg@^8.0.1, npm-package-arg@^8.1.2, npm-package-arg@^8.1.5:
   version "8.1.5"
   resolved "https://registry.yarnpkg.com/npm-package-arg/-/npm-package-arg-8.1.5.tgz#3369b2d5fe8fdc674baa7f1786514ddc15466e44"
   integrity sha512-LhgZrg0n0VgvzVdSm1oiZworPbTxYHUJCgtsJW8mGvlDpxTM1vSJc3m5QZeUkhAHIzbz3VCHd/R4osi1L1Tg/Q==

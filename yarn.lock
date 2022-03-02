@@ -8142,9 +8142,9 @@ gatsby-telemetry@^3.7.0, gatsby-telemetry@^3.8.1:
     node-fetch "^2.6.7"
 
 gatsby-worker@^1.7.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-worker/-/gatsby-worker-1.8.0.tgz#64c9f01edff12408a26795e1eba1066dcb1ab4da"
-  integrity sha512-JttpptUu4l38bB+xGY6bsik+wLyMv+h8JZo10nOngMTBfpkNcFp+7Vpyy+eWs7l0tRZhf0XXAXHo6bccllPnKg==
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-worker/-/gatsby-worker-1.9.0.tgz#bdd958e9c8310cf1c52e8f67243f1727d5243bb0"
+  integrity sha512-K+XzIVy0bBTMY4I8DD2F2A7LOs6ZbSyoJWsQGVbXMc5JNjY3m7fUFi0yt5a8WbhAo0Mcs1ntQ+T93t0qi40blg==
   dependencies:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"

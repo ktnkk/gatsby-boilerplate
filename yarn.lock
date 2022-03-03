@@ -8123,9 +8123,9 @@ gatsby-sharp@^0.1.0:
     sharp "^0.29.3"
 
 gatsby-telemetry@^3.7.0, gatsby-telemetry@^3.8.1:
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.8.1.tgz#5a3addd49be7e28a401c356edc539e3b7534c01c"
-  integrity sha512-UETSYeLIikAiyuNmoPx7r9ERZ/aXv8sZGv2NdQDR/Ylcluf6G24NnhlFSMooajcdQX+8euJtcG+ReZK7WMYG7g==
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.9.0.tgz#d438841a6351ab1fd02c71244cdf78350694f070"
+  integrity sha512-ifqJ4KS16mbpfZ5oVaU4WEbk6gccivVqjCbzfVGgqtl+C8B0u1CeShvr4NcJE1FdVFYIOB4uJeV9Wym03B075A==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/runtime" "^7.15.4"
@@ -8135,7 +8135,7 @@ gatsby-telemetry@^3.7.0, gatsby-telemetry@^3.8.1:
     boxen "^4.2.0"
     configstore "^5.0.1"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.8.1"
+    gatsby-core-utils "^3.9.0"
     git-up "^4.0.5"
     is-docker "^2.2.1"
     lodash "^4.17.21"

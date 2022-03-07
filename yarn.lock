@@ -4583,13 +4583,24 @@ browserslist@^3.2.6:
     caniuse-lite "^1.0.30000844"
     electron-to-chromium "^1.3.47"
 
-browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.3, browserslist@^4.16.6, browserslist@^4.17.5, browserslist@^4.19.1:
+browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.3, browserslist@^4.16.6, browserslist@^4.19.1:
   version "4.19.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.19.3.tgz#29b7caad327ecf2859485f696f9604214bedd383"
   integrity sha512-XK3X4xtKJ+Txj8G5c30B4gsm71s69lqXlkYui4s6EkKxuv49qjYlY6oVd+IFJ73d4YymtM3+djvvt/R/iJwwDg==
   dependencies:
     caniuse-lite "^1.0.30001312"
     electron-to-chromium "^1.4.71"
+    escalade "^3.1.1"
+    node-releases "^2.0.2"
+    picocolors "^1.0.0"
+
+browserslist@^4.17.5:
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.20.0.tgz#35951e3541078c125d36df76056e94738a52ebe9"
+  integrity sha512-bnpOoa+DownbciXj0jVGENf8VYQnE2LNWomhYuCsMmmx9Jd9lwq0WXODuwpSsp8AVdKM2/HorrzxAfbKvWTByQ==
+  dependencies:
+    caniuse-lite "^1.0.30001313"
+    electron-to-chromium "^1.4.76"
     escalade "^3.1.1"
     node-releases "^2.0.2"
     picocolors "^1.0.0"
@@ -4824,6 +4835,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001125, can
   version "1.0.30001312"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001312.tgz#e11eba4b87e24d22697dae05455d5aea28550d5f"
   integrity sha512-Wiz1Psk2MEK0pX3rUzWaunLTZzqS2JYZFzNKqAiJGiuxIjRPLgV6+VDPOg6lQOUxmDwhTlh198JsTTi8Hzw6aQ==
+
+caniuse-lite@^1.0.30001313:
+  version "1.0.30001313"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz#a380b079db91621e1b7120895874e2fd62ed2e2f"
+  integrity sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==
 
 capital-case@^1.0.4:
   version "1.0.4"
@@ -5747,7 +5763,7 @@ create-error-class@^3.0.0:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-create-gatsby@^2.8.0:
+create-gatsby@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.9.0.tgz#560d02551eda31b3038b7c71b772b801e20685b0"
   integrity sha512-xl4bMKm4Buz4btVcU8FenspTJQdegv/4G2z7REKsTempdUWAU6wh8nyKlMWGNUJV2K8oQ6oGLXSJbL4a0LTglQ==
@@ -6497,6 +6513,11 @@ electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.564, electron-to-chromiu
   version "1.4.75"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.75.tgz#d1ad9bb46f2f1bf432118c2be21d27ffeae82fdd"
   integrity sha512-LxgUNeu3BVU7sXaKjUDD9xivocQLxFtq6wgERrutdY/yIOps3ODOZExK1jg8DTEg4U8TUCb5MLGeWFOYuxjF3Q==
+
+electron-to-chromium@^1.4.76:
+  version "1.4.76"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.76.tgz#a0494baedaf51094b1c172999919becd9975a934"
+  integrity sha512-3Vftv7cenJtQb+k00McEBZ2vVmZ/x+HEF7pcZONZIkOsESqAqVuACmBxMv0JhzX7u0YltU0vSqRqgBSTAhFUjA==
 
 emoji-regex@^6.4.1:
   version "6.5.1"
@@ -7932,9 +7953,9 @@ functional-red-black-tree@^1.0.1:
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
 gatsby-cli@^4.7.0:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.8.1.tgz#e9e45ff595c5d1f5a0700f9f99fa79f9b19be775"
-  integrity sha512-F72TiIdc767JauncyNgX7JBvV3AZwuEoAriwvJQClPvTB1RXQXmgrDH5Wvv5eeqo8KDCu+6A8veQmqcOn/IoPg==
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.9.0.tgz#3c6c9a26252671eb60abd399abdaca37836ab2a1"
+  integrity sha512-e4pQ+7Z+9Cppql59fy0OOo2El+ERkzOCVW2+ev5CojiljDb4x/nUHIx9ahKhgA5136F0DaCZ6w/lrOWJmi3ZSQ==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -7951,13 +7972,13 @@ gatsby-cli@^4.7.0:
     common-tags "^1.8.2"
     configstore "^5.0.1"
     convert-hrtime "^3.0.0"
-    create-gatsby "^2.8.0"
+    create-gatsby "^2.9.0"
     envinfo "^7.8.1"
     execa "^5.1.1"
     fs-exists-cached "^1.0.0"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.8.1"
-    gatsby-telemetry "^3.8.1"
+    gatsby-core-utils "^3.9.0"
+    gatsby-telemetry "^3.9.0"
     hosted-git-info "^3.0.8"
     is-valid-path "^0.1.1"
     joi "^17.4.2"
@@ -8146,7 +8167,7 @@ gatsby-sharp@^0.1.0:
     "@types/sharp" "^0.29.5"
     sharp "^0.29.3"
 
-gatsby-telemetry@^3.7.0, gatsby-telemetry@^3.8.1:
+gatsby-telemetry@^3.7.0, gatsby-telemetry@^3.8.1, gatsby-telemetry@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.9.0.tgz#d438841a6351ab1fd02c71244cdf78350694f070"
   integrity sha512-ifqJ4KS16mbpfZ5oVaU4WEbk6gccivVqjCbzfVGgqtl+C8B0u1CeShvr4NcJE1FdVFYIOB4uJeV9Wym03B075A==
@@ -10686,9 +10707,9 @@ lmdb-store@^1.6.11:
     weak-lru-cache "^1.0.0"
 
 lmdb@^2.1.7:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.3.tgz#713ffa515c31e042808abf364b4aa0feaeaf6360"
-  integrity sha512-+OiHQpw22mBBxocb/9vcVNETqf0k5vgHA2r+KX7eCf8j5tSV50ZIv388iY1mnnrERIUhs2sjKQbZhPg7z4HyPQ==
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.4.tgz#6494d5a1d1db152e0be759edcfa06893e4cbdb53"
+  integrity sha512-gto+BB2uEob8qRiTlOq+R3uX0YNHsX9mjxj9Sbdue/LIKqu6IlZjrsjKeGyOMquc/474GEqFyX2pdytpydp0rQ==
   dependencies:
     msgpackr "^1.5.4"
     nan "^2.14.2"

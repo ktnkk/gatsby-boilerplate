@@ -39,7 +39,7 @@
     "esbuild": "^0.14.23",
     "esbuild-register": "^3.3.2",
     "eslint": "^8.10.0",
-    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.2",
     "gatsby-plugin-robots-txt": "^1.7.0",

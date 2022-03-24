@@ -11220,18 +11220,7 @@ listr2@^4.0.1:
     through "^2.3.8"
     wrap-ansi "^7.0.0"
 
-lmdb@^2.0.2, lmdb@^2.2.3:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.5.tgz#37f08b5963a1b81da67f378c7084f59b84c3d443"
-  integrity sha512-yx+jtqSgp9uzp+2b3U3VTvS/g5hw4jXqvTAX+QU4Izdueq5O6MUTLwp/94R4F7SYq96zOfaGN/IUgiz6AWo+yg==
-  dependencies:
-    msgpackr "^1.5.4"
-    nan "^2.14.2"
-    node-gyp-build "^4.2.3"
-    ordered-binary "^1.2.4"
-    weak-lru-cache "^1.2.2"
-
-lmdb@^2.2.4:
+lmdb@^2.0.2, lmdb@^2.2.3, lmdb@^2.2.4:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.6.tgz#a52ef533812b8abcbe0033fc9d74d215e7dfc0a0"
   integrity sha512-UmQV0oZZcV3EN6rjcAjIiuWcc3MYZGWQ0GUYz46Ron5fuTa/dUow7WSQa6leFkvZIKVUdECBWVw96tckfEzUFQ==

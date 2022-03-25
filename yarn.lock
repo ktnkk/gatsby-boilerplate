@@ -8637,13 +8637,13 @@ gatsby-plugin-typescript@^4.10.0:
     babel-plugin-remove-graphql-queries "^4.10.0"
 
 gatsby-plugin-utils@^3.4.0, gatsby-plugin-utils@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.4.1.tgz#14c9cff75af32a32860575069af44bdabc8f65d9"
-  integrity sha512-sDMVGauxMgXyX8WGZDndZI2vIaolJzlXBMdKhgP7DIT+Qa5wjvyHWvZy34dxtVrT3IHPK/PRMgpE81Gr7gKveg==
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.4.2.tgz#bdc66fd52c052c91af443981e1facbc097429dc7"
+  integrity sha512-HkVR8BnEdc915pmY2L9wPwFgjq303ThMH9UtT+frDOPzn+GFjPlBF5+YGJ3tZaxH0ouwpnGTn3Pu37tcRZcctA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.10.0"
+    gatsby-core-utils "^3.10.1"
     gatsby-sharp "^0.4.0"
     graphql-compose "^9.0.7"
     import-from "^4.0.0"
@@ -12248,12 +12248,12 @@ minimist-options@4.1.0:
     is-plain-obj "^1.1.0"
     kind-of "^6.0.3"
 
-minimist@1.2.5, minimist@^1.2.3, minimist@^1.2.5:
+minimist@1.2.5, minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
-minimist@^1.2.0:
+minimist@^1.2.0, minimist@^1.2.3:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==

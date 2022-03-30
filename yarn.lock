@@ -8498,27 +8498,6 @@ gatsby-core-utils@^3.10.0, gatsby-core-utils@^3.10.1, gatsby-core-utils@^3.11.0,
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.11.0.tgz#cd78bf1a3fa89e201dd35a5d3a8c4029d7614a9d"
-  integrity sha512-ye8ULSmSdv27sOGu2g2qQiSXhxhlgkq/O+4p+yftDn+VeQMVRx/yWinhN/GfH7ahQq6mC0wYRehkbE4GK6Ga8g==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fastq "^1.13.0"
-    file-type "^16.5.3"
-    fs-extra "^10.0.0"
-    got "^11.8.3"
-    import-from "^4.0.0"
-    lmdb "^2.2.4"
-    lock "^1.1.0"
-    node-object-hash "^2.3.10"
-    proper-lockfile "^4.1.2"
-    resolve-from "^5.0.0"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-graphiql-explorer@^2.10.0:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.10.0.tgz#6d36ed936170673b7439989c2617369a151c4e51"
@@ -8621,10 +8600,10 @@ gatsby-plugin-robots-txt@^1.7.0:
     "@babel/runtime" "^7.16.7"
     generate-robotstxt "^8.0.3"
 
-gatsby-plugin-sitemap@^5.10.2:
-  version "5.10.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-5.10.2.tgz#208149b900b166c42aa88a5f5436f5c6bf6561e9"
-  integrity sha512-X6pVbytl/QfdfGrnXAEKPf5vc38WIbclmHYIfbgjXUYA9yckTxnfuYZqkS2YwCmbcUTHG1ugcmXMeBGVo77IBQ==
+gatsby-plugin-sitemap@^5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-5.11.0.tgz#ce396c8d5a4ce1fac67821c9db3e2cbffceab494"
+  integrity sha512-9Az8F0qfl+9gXNKX8KWVmYu1yxxM2P9Tuq5s+QdRXEfqyPZAnbclU1lg+PXErHNouF2uqAU3K0NQJT6LcxSfAA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     common-tags "^1.8.2"

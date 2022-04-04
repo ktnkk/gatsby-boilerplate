@@ -8677,9 +8677,9 @@ gatsby-plugin-utils@^3.4.0, gatsby-plugin-utils@^3.5.1:
     mime "^3.0.0"
 
 gatsby-react-router-scroll@^5.10.0:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-5.10.0.tgz#4a146dbe4079024290b21599a67238189f73cd40"
-  integrity sha512-uyWRQTNsHoQHJKZxnpHX4wmtS6ptVmUKGkUqox367gDPm6FHAGUF/Jv630C8xYZJ9Y8TuozlZqdquWTpuLDRFw==
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-5.11.0.tgz#866b89366146d8df3852ed699d12be1e9fce4acc"
+  integrity sha512-g/lyG0X73cpI9DdYvCv5rZiV8LqHjn6q1l8Vfm/jBS7wtv8XxNR4BxUqkbMeHRcvZcX5bXku6FFSFUAOd9c3QQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     prop-types "^15.7.2"

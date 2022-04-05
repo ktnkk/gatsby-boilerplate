@@ -6240,9 +6240,9 @@ create-error-class@^3.0.0:
     capture-stack-trace "^1.0.0"
 
 create-gatsby@^2.10.2:
-  version "2.10.2"
-  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.10.2.tgz#ded9eb4066078845529a02bc966ef414a77b814a"
-  integrity sha512-OmuFey3Eoaek20m8Br/iIqEr76AUrl/ThCn7TBYJ6RvWVKezKV5UksQlFpdQgPK8kO9LogjkmiyA0k94VC3nXg==
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.11.1.tgz#8d73cce07ff0006386795ca1b74a0bdbb023500b"
+  integrity sha512-ltSLSsbQRoCXxKzgkxp5PBv60O1BL0IdeKKbgmwEcYxiDVw4pXPcFmIqMmvHfk9fqzbCyPzehIQHdlEpJGDYwQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
 

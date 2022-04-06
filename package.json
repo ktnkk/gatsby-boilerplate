@@ -20,7 +20,7 @@
   ],
   "main": "n/a",
   "dependencies": {
-    "gatsby": "^4.10.0",
+    "gatsby": "^4.11.2",
     "gatsby-plugin-google-tagmanager": "^4.10.1",
     "gatsby-plugin-react-helmet": "^5.10.0",
     "gatsby-plugin-typegen": "^2.2.4",

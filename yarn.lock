@@ -12652,9 +12652,9 @@ node-fetch@2.6.7, node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.6, node-
     whatwg-url "^5.0.0"
 
 node-gyp-build-optional-packages@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-4.3.1.tgz#124d67ab7c69338fd62b5c3c61b50c3f5ec60c2e"
-  integrity sha512-pxljizahvoXKVtlo+D+YOcHYG2931/aBdNoqfynHDNwWRIe94CgkIUZfeOOFaHY+hl5lYkyI9RzGfr/gWxlR4Q==
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-4.3.2.tgz#82de9bdf9b1ad042457533afb2f67469dc2264bb"
+  integrity sha512-P5Ep3ISdmwcCkZIaBaQamQtWAG0facC89phWZgi5Z3hBU//J6S48OIvyZWSPPf6yQMklLZiqoosWAZUj7N+esA==
 
 node-gyp-build@^4.2.3, node-gyp-build@^4.3.0:
   version "4.4.0"

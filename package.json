@@ -43,7 +43,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "gatsby-plugin-robots-txt": "^1.7.0",
-    "gatsby-plugin-sitemap": "^5.11.0",
+    "gatsby-plugin-sitemap": "^5.11.1",
     "husky": "^7.0.4",
     "hygen": "^6.2.0",
     "lint-staged": "^12.3.7",

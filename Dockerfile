@@ -1,4 +1,4 @@
-FROM node:17.8.0-bullseye-slim
+FROM node:17.9.0-bullseye-slim
 LABEL maintainer="ktnkk@pm.me"
 LABEL version="1.0.0"
 WORKDIR /home/node/app

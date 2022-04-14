@@ -3088,9 +3088,9 @@
     form-data "^3.0.0"
 
 "@types/node@*":
-  version "17.0.23"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.23.tgz#3b41a6e643589ac6442bdbd7a4a3ded62f33f7da"
-  integrity sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==
+  version "17.0.24"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.24.tgz#20ba1bf69c1b4ab405c7a01e950c4f446b05029f"
+  integrity sha512-aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==
 
 "@types/node@>=10.0.0", "@types/node@>=12", "@types/node@^17.0.19", "@types/node@^17.0.5":
   version "17.0.21"
@@ -3113,9 +3113,9 @@
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
 "@types/prop-types@*":
-  version "15.7.4"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
-  integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
+  version "15.7.5"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
+  integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
 "@types/reach__router@^1.3.10":
   version "1.3.10"
@@ -3132,9 +3132,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "17.0.43"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.43.tgz#4adc142887dd4a2601ce730bc56c3436fdb07a55"
-  integrity sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==
+  version "18.0.5"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.5.tgz#1a4d4b705ae6af5aed369dec22800b20f89f5301"
+  integrity sha512-UPxNGInDCIKlfqBrm8LDXYWNfLHwIdisWcsH5GpMyGjhEDLFgTtlRBaoWuCua9HcyuE0rMkmAeZ3FXV1pYLIYQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -8530,6 +8530,27 @@ gatsby-core-utils@^3.11.1, gatsby-core-utils@^3.8.2:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-core-utils@^3.12.1:
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.12.1.tgz#590ec08de7168b086b7d49128732b9ada95b985f"
+  integrity sha512-jBG1MfR6t2MZNIl8LQ3Cwc92F6uFNcEC091IK+qKVy9FNT0+WzcKQ6Olip6u1NSvCatfrg1FqrH0K78a6lmnLQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fastq "^1.13.0"
+    file-type "^16.5.3"
+    fs-extra "^10.0.0"
+    got "^11.8.3"
+    import-from "^4.0.0"
+    lmdb "^2.2.6"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    resolve-from "^5.0.0"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-graphiql-explorer@^2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.11.0.tgz#7e886846482ad72bd49f515e7faa658a94342803"
@@ -8546,28 +8567,28 @@ gatsby-legacy-polyfills@^2.11.0:
     core-js-compat "3.9.0"
 
 gatsby-link@^4.11.1:
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-4.11.1.tgz#f8bfee4c7f3bf0ede255bddf87d0f13c64ed39f2"
-  integrity sha512-wOhdgsnzHr4iYWo3iKadw8jj5PmIu1wbi6LUftwQzFOFvkBaJvC/br1ju8W0nbwSjWG474hTZRon43xDQX9bIw==
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-4.12.1.tgz#131448e9c51e0c9a65e2a342603d496e85cea2da"
+  integrity sha512-ILWYNqyTlEt2bOVWgzwmbijwC+Ow4CZVbnWOyaQ/jvu5z3ZGL0z5tGGD+sjZAHc8anOMWn/JWhL0BKGVaxjMGQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@types/reach__router" "^1.3.10"
-    gatsby-page-utils "^2.11.1"
+    gatsby-page-utils "^2.12.1"
     prop-types "^15.7.2"
 
-gatsby-page-utils@^2.11.1:
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-2.11.1.tgz#dd10f99184b64528ae76f2b654b8ed1b23cb9c39"
-  integrity sha512-K1Mbk4CKYZwpJcE4zk4JAff7ZBNFXI0fC8lZwLbDAzVcqYUaouqqqnoU7WeB8HHUqDQi05CXItx1bbZFDGIymw==
+gatsby-page-utils@^2.11.1, gatsby-page-utils@^2.12.1:
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-2.12.1.tgz#ee5dbd21b8e22003e5b0c7e4d86ed3b89773c0ac"
+  integrity sha512-2NPfVHRoHYcqUZrGVAvHN28uqI/PTGE/DrpE79YR/blbnloEzwzpAGNbBjWitgcR0st5q5NrATJQ/Imu3M7ApA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     bluebird "^3.7.2"
     chokidar "^3.5.2"
     fs-exists-cached "^1.0.0"
-    gatsby-core-utils "^3.11.1"
+    gatsby-core-utils "^3.12.1"
     glob "^7.2.0"
     lodash "^4.17.21"
-    micromatch "^4.0.4"
+    micromatch "^4.0.5"
 
 gatsby-parcel-config@^0.2.0:
   version "0.2.0"
@@ -10841,9 +10862,9 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 keyv@^4.0.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.2.1.tgz#61c836fc3cdc9d73d9292b09965210f394588903"
-  integrity sha512-cAJq5cTfxQdq1DHZEVNpnk4mEvhP+8UP8UQftLtTtJ98beKkRHf+62M0mIDM2u/IWXyP8bmGB375/6uGdSX2MA==
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.2.2.tgz#4b6f602c0228ef4d8214c03c520bef469ed6b768"
+  integrity sha512-uYS0vKTlBIjNCAUqrjlxmruxOEiZxZIHXyp32sdcGmP+ukFrmWUnE//RcPXJH3Vxrni1H2gsQbjHE0bH7MtMQQ==
   dependencies:
     compress-brotli "^1.3.6"
     json-buffer "3.0.1"
@@ -11242,6 +11263,36 @@ listr2@^4.0.1:
     through "^2.3.8"
     wrap-ansi "^7.0.0"
 
+lmdb-darwin-arm64@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/lmdb-darwin-arm64/-/lmdb-darwin-arm64-2.3.2.tgz#edcd324e4693abfcd02e7c5ba44a7f0e209f7588"
+  integrity sha512-20lWWUPGKnSZRFY8FBm+vZEFx/5Deh0joz6cqJ8/0SuO/ejqRCppSsNqAxPqW87KUNR5rNfhaA2oRekMeb0cwQ==
+
+lmdb-darwin-x64@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/lmdb-darwin-x64/-/lmdb-darwin-x64-2.3.2.tgz#6561f37d0461c3128b92fb80996c54e6243af939"
+  integrity sha512-BsBnOfgK1B11Dh4RgcgBTmkmsPv3mjBPKsA4W4E+18SW9K2aRi86CAMPXqjfY/OJDUe1pSrpVf1A83b8N/C9rg==
+
+lmdb-linux-arm64@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/lmdb-linux-arm64/-/lmdb-linux-arm64-2.3.2.tgz#feb4a52a0030feb9520543c78919c30250a85107"
+  integrity sha512-DIibLZHpwwlIsP9cBRmw0xqDy6wZH+CDAnOTI+eihQ5PdWjTs+kaQs5O/x8l6/8fwCB0TPYKWTqfdUbvd/F7AA==
+
+lmdb-linux-arm@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/lmdb-linux-arm/-/lmdb-linux-arm-2.3.2.tgz#d8ee33547cc0f671efcf63ca381306df51f972f5"
+  integrity sha512-ofxfxVQqMbaC2Ygjzk8k6xgS5Dg/3cANeLcEx14T35GoU5pQKlLAWjypptyLQEeOboEmEOpZmHMoD7sWu/zakQ==
+
+lmdb-linux-x64@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/lmdb-linux-x64/-/lmdb-linux-x64-2.3.2.tgz#1c66a012199ab5235d3fcec8c3fdad573cf3eff4"
+  integrity sha512-HBUd013RRQ2KpiyBqqqSPSEwPpVUpTJZdTZGDVQFQZuxqyJumt4Wye3uh6ZgEiBtxzSelt4xvAeNjYPH0dcZSQ==
+
+lmdb-win32-x64@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/lmdb-win32-x64/-/lmdb-win32-x64-2.3.2.tgz#e65f79bfbb9f09ebfa53d3b03959bc581ebda55a"
+  integrity sha512-/hir5oU+GYm7/B6QirrpyOmIuzCKiIbWoKIJI2ebXeJlrs6Jj7UY9caPBYVkCzd79QzJnB7hIlX/F6Jx6gcUmg==
+
 lmdb@2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.4.tgz#6494d5a1d1db152e0be759edcfa06893e4cbdb53"
@@ -11263,6 +11314,25 @@ lmdb@^2.0.2, lmdb@^2.2.3, lmdb@^2.2.4:
     node-gyp-build "^4.2.3"
     ordered-binary "^1.2.4"
     weak-lru-cache "^1.2.2"
+
+lmdb@^2.2.6:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.3.3.tgz#ee0c53a5f5c2509c566b891803b3322e5a59095f"
+  integrity sha512-CrooSvHOzd+jPXCXpiffu2+5m90Fe6L/cw90fg+4sCWNrw3W7/ad20CGuTkMVU7mAuwXEAJAfnUwvHN2pS9Rqg==
+  dependencies:
+    msgpackr "^1.5.4"
+    nan "^2.14.2"
+    node-addon-api "^4.3.0"
+    node-gyp-build-optional-packages "^4.3.2"
+    ordered-binary "^1.2.4"
+    weak-lru-cache "^1.2.2"
+  optionalDependencies:
+    lmdb-darwin-arm64 "2.3.2"
+    lmdb-darwin-x64 "2.3.2"
+    lmdb-linux-arm "2.3.2"
+    lmdb-linux-arm64 "2.3.2"
+    lmdb-linux-x64 "2.3.2"
+    lmdb-win32-x64 "2.3.2"
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -12175,7 +12245,7 @@ micromatch@^3.1.10:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
-micromatch@^4.0.2, micromatch@^4.0.4:
+micromatch@^4.0.2, micromatch@^4.0.4, micromatch@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
   integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==
@@ -13534,9 +13604,9 @@ optionator@^0.9.1:
     word-wrap "^1.2.3"
 
 ordered-binary@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/ordered-binary/-/ordered-binary-1.2.4.tgz#51d3a03af078a0bdba6c7bc8f4fedd1f5d45d83e"
-  integrity sha512-A/csN0d3n+igxBPfUrjbV5GC69LWj2pjZzAAeeHXLukQ4+fytfP4T1Lg0ju7MSPSwq7KtHkGaiwO8URZN5IpLg==
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/ordered-binary/-/ordered-binary-1.2.5.tgz#6208c45067eae9d14b8f44791a1d7037adad9147"
+  integrity sha512-djRmZoEpOGvIRW7ufsCDHtvcUa18UC9TxnPbHhSVFZHsoyg0dtut1bWtBZ/fmxdPN62oWXrV6adM7NoWU+CneA==
 
 os-homedir@^1.0.0:
   version "1.0.2"

@@ -5070,9 +5070,9 @@ builtins@^1.0.3:
   integrity sha1-y5T662HIaWRR2zZTThQi+U8K7og=
 
 builtins@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/builtins/-/builtins-5.0.0.tgz#20d87e7f95d46481b1abe4adc616a9cb6b492cba"
-  integrity sha512-aizhtbxgT1Udg0Fj6GssXshAVK+nxbtCV+1OtTrMNy67jffDFBY6CUBAkhO4owbleAx6fdbnWdpsmmcXydbzNw==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/builtins/-/builtins-5.0.1.tgz#87f6db9ab0458be728564fa81d876d8d74552fa9"
+  integrity sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==
   dependencies:
     semver "^7.0.0"
 
@@ -5149,7 +5149,7 @@ cacache@^12.0.0, cacache@^12.0.2, cacache@^12.0.3:
     unique-filename "^1.1.1"
     y18n "^4.0.0"
 
-cacache@^16.0.0, cacache@^16.0.2:
+cacache@^16.0.0:
   version "16.0.4"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.4.tgz#66877ae82717ade4d1416d5b3caa3a870f2c6d0c"
   integrity sha512-U0D4wF3/W8ZgK4qDA5fTtOVSr0gaDfd5aa7tUdAV0uukVWKsAIn6SzXQCoVlg7RWZiJa+bcsM3/pXLumGaL2Ug==
@@ -5159,6 +5159,30 @@ cacache@^16.0.0, cacache@^16.0.2:
     chownr "^2.0.0"
     fs-minipass "^2.1.0"
     glob "^7.2.0"
+    infer-owner "^1.0.4"
+    lru-cache "^7.7.1"
+    minipass "^3.1.6"
+    minipass-collect "^1.0.2"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    mkdirp "^1.0.4"
+    p-map "^4.0.0"
+    promise-inflight "^1.0.1"
+    rimraf "^3.0.2"
+    ssri "^9.0.0"
+    tar "^6.1.11"
+    unique-filename "^1.1.1"
+
+cacache@^16.0.2:
+  version "16.0.6"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.6.tgz#3e4b1e8196673486e725a66eaa747a91da753963"
+  integrity sha512-9a/MLxGaw3LEGes0HaPez2RgZWDV6X0jrgChsuxfEh8xoDoYGxaGrkMe7Dlyjrb655tA/b8fX0qlUg6Ii5MBvw==
+  dependencies:
+    "@npmcli/fs" "^2.1.0"
+    "@npmcli/move-file" "^2.0.0"
+    chownr "^2.0.0"
+    fs-minipass "^2.1.0"
+    glob "^8.0.1"
     infer-owner "^1.0.4"
     lru-cache "^7.7.1"
     minipass "^3.1.6"
@@ -8875,7 +8899,7 @@ gatsby@^4.12.1:
   optionalDependencies:
     gatsby-sharp "^0.6.1"
 
-gauge@^4.0.0:
+gauge@^4.0.0, gauge@^4.0.3:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-4.0.4.tgz#52ff0652f2bbf607a989793d53b751bef2328dce"
   integrity sha512-f9m+BEN5jkg6a0fZjleidjN51VE1X+mPFQ2DJ0uv1V39oCLCbsGe6yjbBnp7eK7z/+GAon99a3nHuqbuuthyPg==
@@ -9116,6 +9140,18 @@ glob@7.1.4:
     inflight "^1.0.4"
     inherits "2"
     minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-8.0.1.tgz#00308f5c035aa0b2a447cd37ead267ddff1577d3"
+  integrity sha512-cF7FYZZ47YzmCu7dDy50xSRRfO3ErRfrXuLZcNIuyiJEco0XSrGtuilG19L5xp3NcwTx7Gn+X6Tv3fmsUPTbow==
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^5.0.1"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
@@ -9679,9 +9715,9 @@ https-proxy-agent@^2.2.3:
     debug "^3.1.0"
 
 https-proxy-agent@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
-  integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"
+  integrity sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
   dependencies:
     agent-base "6"
     debug "4"
@@ -11158,16 +11194,15 @@ libnpmteam@^1.0.2:
     npm-registry-fetch "^4.0.0"
 
 libnpmversion@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmversion/-/libnpmversion-3.0.1.tgz#378ef2b092a4a633772b1e66620ce3c431dc3697"
-  integrity sha512-ZxOVWmMX+RBkOeJSiNPdhMqRaAOJXf3EDfvC6Mr90+NaM+gKptiw/NJBT3jKfZKbLn/wuC0Ey/sc4YNLoBk0Qw==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/libnpmversion/-/libnpmversion-3.0.3.tgz#45a8213979a978f4c5446997cdad8e57e204573f"
+  integrity sha512-TGxrTuQlPw6OuFmnrGG1ma3ECWKV9DEntTPaUruqJ+k9Nsk7dznomFSwgjCYPRdHfGxJoIufOvX40YIzS6TEwQ==
   dependencies:
     "@npmcli/git" "^3.0.0"
     "@npmcli/run-script" "^3.0.0"
     json-parse-even-better-errors "^2.3.1"
     proc-log "^2.0.0"
     semver "^7.3.5"
-    stringify-package "^1.0.1"
 
 libnpx@^10.2.4:
   version "10.2.4"
@@ -13348,7 +13383,7 @@ npm@^8.3.0:
     which "*"
     write-file-atomic "*"
 
-npmlog@*, npmlog@^6.0.0, npmlog@^6.0.1:
+npmlog@*, npmlog@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/npmlog/-/npmlog-6.0.1.tgz#06f1344a174c06e8de9c6c70834cfba2964bba17"
   integrity sha512-BTHDvY6nrRHuRfyjt1MAufLxYdVXZfd099H4+i1f0lPywNQyI4foeNXJRObB/uy+TYqUW0vAD9gbdSOXPst7Eg==
@@ -13367,6 +13402,16 @@ npmlog@^4.0.0, npmlog@^4.0.1, npmlog@^4.1.2, npmlog@~4.1.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
+
+npmlog@^6.0.0:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/npmlog/-/npmlog-6.0.2.tgz#c8166017a42f2dea92d6453168dd865186a70830"
+  integrity sha512-/vBvz5Jfr9dT/aFWd0FIRf+T/Q2WBsLENygUaFUqstqsycmZAP/t5BvFJTK0viFmSUxiUKTUplWy5vt+rvKIxg==
+  dependencies:
+    are-we-there-yet "^3.0.0"
+    console-control-strings "^1.1.0"
+    gauge "^4.0.3"
+    set-blocking "^2.0.0"
 
 nth-check@^2.0.1:
   version "2.0.1"
@@ -16208,7 +16253,7 @@ socks-proxy-agent@^4.0.0:
     agent-base "~4.2.1"
     socks "~2.3.2"
 
-socks-proxy-agent@^6.0.0, socks-proxy-agent@^6.1.1:
+socks-proxy-agent@^6.0.0:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/socks-proxy-agent/-/socks-proxy-agent-6.1.1.tgz#e664e8f1aaf4e1fb3df945f09e3d94f911137f87"
   integrity sha512-t8J0kG3csjA4g6FTbsMOWws+7R7vuRC8aQ/wy3/1OWmsgwA68zs/+cExQ0koSitUDXqhufF/YJr9wtNMZHw5Ew==
@@ -16217,7 +16262,16 @@ socks-proxy-agent@^6.0.0, socks-proxy-agent@^6.1.1:
     debug "^4.3.1"
     socks "^2.6.1"
 
-socks@^2.6.1:
+socks-proxy-agent@^6.1.1:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/socks-proxy-agent/-/socks-proxy-agent-6.2.0.tgz#f6b5229cc0cbd6f2f202d9695f09d871e951c85e"
+  integrity sha512-wWqJhjb32Q6GsrUqzuFkukxb/zzide5quXYcMVpIjxalDBBYy2nqKCFQ/9+Ie4dvOYSQdOk3hUlZSdzZOd3zMQ==
+  dependencies:
+    agent-base "^6.0.2"
+    debug "^4.3.3"
+    socks "^2.6.2"
+
+socks@^2.6.1, socks@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/socks/-/socks-2.6.2.tgz#ec042d7960073d40d94268ff3bb727dc685f111a"
   integrity sha512-zDZhHhZRY9PxRruRMR7kMhnf3I8hDs4S3f9RecfnGxvcBHQcKcIH/oUcEWffsfl1XxdYlA7nnlGbbTvPz9D8gA==

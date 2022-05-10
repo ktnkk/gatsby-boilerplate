@@ -3363,9 +3363,9 @@
     "@types/node" "*"
 
 "@types/lodash@^4.14.92":
-  version "4.14.178"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.178.tgz#341f6d2247db528d4a13ddbb374bcdc80406f4f8"
-  integrity sha512-0d5Wd09ItQWH1qFbEyQ7oTQ3GZrMfth5JkbN3EvTKLXcHLRDSXeLnlvlOn0wvxVIwK5o2M8JzP/OWz7T3NRsbw==
+  version "4.14.182"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.182.tgz#05301a4d5e62963227eaafe0ce04dd77c54ea5c2"
+  integrity sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==
 
 "@types/mdast@^3.0.0":
   version "3.0.10"
@@ -3399,7 +3399,7 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*":
+"@types/node@*", "@types/node@>=10.0.0", "@types/node@>=12", "@types/node@^17.0.19", "@types/node@^17.0.5":
   version "17.0.31"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.31.tgz#a5bb84ecfa27eec5e1c802c6bbf8139bdb163a5d"
   integrity sha512-AR0x5HbXGqkEx9CadRH3EBYx/VkiUgZIhP4wvPn/+5KIsgpNoyFaRlVe0Zlx9gRtg8fA06a9tskE2MSN7TcG4Q==
@@ -3408,11 +3408,6 @@
   version "16.9.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.1.tgz#0611b37db4246c937feef529ddcc018cf8e35708"
   integrity sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==
-
-"@types/node@>=10.0.0", "@types/node@>=12", "@types/node@^17.0.19", "@types/node@^17.0.5":
-  version "17.0.21"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.21.tgz#864b987c0c68d07b4345845c3e63b75edd143644"
-  integrity sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==
 
 "@types/node@^8.5.7":
   version "8.10.66"
@@ -7088,9 +7083,9 @@ detect-port@^1.3.0:
     debug "^2.6.0"
 
 devcert@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/devcert/-/devcert-1.2.0.tgz#7fb0fa2ca4c73baf3a3053973e80ebc5899fb20d"
-  integrity sha512-Tca9LUcmDegqTxlnQLTxVARS3MqYT+eWJfskXykefknT9jPoSJEA+t5BkDq5C5Tz+gVmAWmOH5vvKMfLJO/UhQ==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/devcert/-/devcert-1.2.1.tgz#cb545583f4dfd33ed5358dacc3756d4c3878b858"
+  integrity sha512-R7DqtMtsNmFVY75kzRHXON3hXoJili2xxlEcZgHi0VHSx8aJECfm7ZqAquXzTeAM/I9f8G2pHc/zq5k6iXHQzA==
   dependencies:
     "@types/configstore" "^2.1.1"
     "@types/debug" "^0.0.30"
@@ -7107,6 +7102,7 @@ devcert@^1.2.0:
     eol "^0.9.1"
     get-port "^3.2.0"
     glob "^7.1.2"
+    is-valid-domain "^0.1.6"
     lodash "^4.17.4"
     mkdirp "^0.5.1"
     password-prompt "^1.0.4"
@@ -10927,6 +10923,13 @@ is-utf8@^0.2.0, is-utf8@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
   integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
+
+is-valid-domain@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/is-valid-domain/-/is-valid-domain-0.1.6.tgz#3c85469d2938f170c8f82ce6e52df8ad9fca8105"
+  integrity sha512-ZKtq737eFkZr71At8NxOFcP9O1K89gW3DkdrGMpp1upr/ueWjj+Weh4l9AI4rN0Gt8W2M1w7jrG2b/Yv83Ljpg==
+  dependencies:
+    punycode "^2.1.1"
 
 is-valid-path@^0.1.1:
   version "0.1.1"

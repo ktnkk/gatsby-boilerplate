@@ -9029,9 +9029,9 @@ gatsby-plugin-utils@^3.7.0:
     svgo "^2.8.0"
 
 gatsby-react-router-scroll@^5.13.0:
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-5.13.0.tgz#49a85ac63bca547b624be117c144c507865a73cc"
-  integrity sha512-+CHI04TxkckvKBh3e9JfANc9JCoNC2ULkRs0GWNCyRTffRVClK3BJEnnyyD7XKw6sY7zSJ45R9xkBWVca+hrjw==
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-5.14.0.tgz#b5f4387611e9cddf20066133cca9736f9ccc585f"
+  integrity sha512-jyqAmmo2UK6v/qRfx8bqlRkjiSYtJRUWNb4nx3bpEIvMlN/vGdJtJ60LsGkRJ5g6U6MybfVX7kUFjgjZdgtqHA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     prop-types "^15.8.1"

@@ -44,7 +44,7 @@
     "eslint-plugin-react": "^7.29.4",
     "gatsby-plugin-robots-txt": "^1.7.1",
     "gatsby-plugin-sitemap": "^5.13.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "hygen": "^6.2.0",
     "lint-staged": "^12.4.1",
     "markdownlint": "^0.25.1",

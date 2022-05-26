@@ -1184,9 +1184,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.16.7", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.18.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.0.tgz#6d77142a19cb6088f0af662af1ada37a604d34ae"
-  integrity sha512-YMQvx/6nKEaucl0MY56mwIG483xk8SDNdlUwb2Ts6FUpr7fm85DxEmsY18LXBNhcTz6tO6JwZV8w1W06v8UKeg==
+  version "7.18.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.3.tgz#c7b654b57f6f63cf7f8b418ac9ca04408c4579f4"
+  integrity sha512-38Y8f7YUhce/K7RMwTp7m0uCumpv9hZkitCbBClqQIow1qSbCvGkcegKOXpEWCQLfWmevgRiWokZ1GkpfhbZug==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -9185,9 +9185,9 @@ gatsby-plugin-utils@^3.8.0:
     svgo "^2.8.0"
 
 gatsby-react-router-scroll@^5.14.0:
-  version "5.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-5.14.0.tgz#b5f4387611e9cddf20066133cca9736f9ccc585f"
-  integrity sha512-jyqAmmo2UK6v/qRfx8bqlRkjiSYtJRUWNb4nx3bpEIvMlN/vGdJtJ60LsGkRJ5g6U6MybfVX7kUFjgjZdgtqHA==
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-5.15.0.tgz#d539f6fdc9d99b69961b8acb489c42871317315c"
+  integrity sha512-Cjn8SVUZxwgkLFjRZ9HVeZECC16yIkMOpy5LGuLl50HBI/fFTO0QAvGgs0/Axh7tTyPeO/EaZr018zJI0ZiQhA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     prop-types "^15.8.1"

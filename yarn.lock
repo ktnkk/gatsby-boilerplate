@@ -9075,9 +9075,9 @@ gatsby-react-router-scroll@^5.15.0:
     prop-types "^15.8.1"
 
 gatsby-script@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-script/-/gatsby-script-1.0.0.tgz#5561027ac10789734694da4378d0c3d4ad76da01"
-  integrity sha512-PmzBHFEaPktEj91AYrSWDJecttklz1OX44scYbNcI1krMhdcI1CREblBDH2oVXGi1zW1ZZalx3sq1GBkEoCCsA==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-script/-/gatsby-script-1.0.1.tgz#c31507b450195c0105f03a6b0c5ddcb1c30c2ff6"
+  integrity sha512-ib3sEk/mZfAMERQxAfok+YXwxDR0+XLDWaaEJAvFmcHpowuzyVhiLinjspN5FRR8/39C/c3XUE+fi1cqiaNLOw==
 
 gatsby-sharp@^0.9.0:
   version "0.9.0"

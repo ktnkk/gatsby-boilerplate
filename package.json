@@ -45,7 +45,7 @@
     "gatsby-plugin-robots-txt": "^1.7.1",
     "gatsby-plugin-sitemap": "^5.16.0",
     "husky": "^8.0.1",
-    "hygen": "^6.2.0",
+    "hygen": "^6.2.7",
     "lint-staged": "^13.0.0",
     "markdownlint": "^0.25.1",
     "markdownlint-cli": "^0.31.1",

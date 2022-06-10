@@ -50,7 +50,7 @@
     "markdownlint": "^0.25.1",
     "markdownlint-cli": "^0.31.1",
     "prettier": "^2.6.2",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^19.0.3",
     "semantic-release-cli": "^5.4.4",
     "textlint": "^12.1.1",
     "textlint-filter-rule-comments": "^1.2.2",

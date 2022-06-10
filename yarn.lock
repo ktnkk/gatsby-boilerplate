@@ -9009,10 +9009,10 @@ gatsby-parcel-config@^0.7.0:
     "@parcel/transformer-raw" "2.6.0"
     "@parcel/transformer-react-refresh-wrap" "2.6.0"
 
-gatsby-plugin-google-tagmanager@^4.15.0:
-  version "4.15.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-4.15.0.tgz#7a2f03ff363781afd3aad5d043b7c0c1b07dd6df"
-  integrity sha512-fcyeqg5lvauM1f8a82f3pIfV2ZP9ftRWz8nbhxORocC7c5VOjIDO/RTYb/H3cG4OnRg3oeNErqR0Fwcm9MEJQw==
+gatsby-plugin-google-tagmanager@^4.16.0:
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-4.16.0.tgz#c90f6e8359d6de1f2cdbf71b771833ddd11cef04"
+  integrity sha512-y3PSKwIgSYHpKoEg++XOimP838qZm49KO4dkAAPK3/DcRofeVYiMAbs2PDSgSMMD1aW9f1GMw5ThFvpG9Q4ndg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     web-vitals "^1.1.2"

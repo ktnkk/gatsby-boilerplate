@@ -49,7 +49,7 @@
     "lint-staged": "^13.0.0",
     "markdownlint": "^0.25.1",
     "markdownlint-cli": "^0.31.1",
-    "prettier": "^2.7.0",
+    "prettier": "^2.7.1",
     "semantic-release": "^19.0.3",
     "semantic-release-cli": "^5.4.4",
     "textlint": "^12.1.1",

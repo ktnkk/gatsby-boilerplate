@@ -11442,13 +11442,13 @@ libnpmorg@^1.0.1:
     npm-registry-fetch "^4.0.0"
 
 libnpmpack@*:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-4.1.0.tgz#93a170b67bc52e15edc7b1f2e09b2c36e532b897"
-  integrity sha512-BHwojfEbJvVVJXivZjOCe3Y0IzQ47p6c/bfebrpzazuFNRoS9XOsbkncRbl3f23+u9b51eplzwaPh/5xSOAWHg==
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-4.1.2.tgz#9234a3b1ae433f922c19e97cd3a8a0b135b5f4cc"
+  integrity sha512-megSAPeZGv9jnDM4KovKbczjyuy/EcPxCIU/iaWsDU1IEAVtBJ0qHqNUm5yN2AgN501Tb3CL6KeFGYdG4E31rQ==
   dependencies:
-    "@npmcli/run-script" "^3.0.0"
+    "@npmcli/run-script" "^4.1.3"
     npm-package-arg "^9.0.1"
-    pacote "^13.5.0"
+    pacote "^13.6.1"
 
 libnpmpublish@*:
   version "5.0.0"
@@ -14133,7 +14133,7 @@ package-json@^6.3.0:
     registry-url "^5.0.0"
     semver "^6.2.0"
 
-pacote@*, pacote@^13.0.3, pacote@^13.0.5, pacote@^13.5.0, pacote@^13.6.1:
+pacote@*, pacote@^13.0.3, pacote@^13.0.5, pacote@^13.6.1:
   version "13.6.1"
   resolved "https://registry.yarnpkg.com/pacote/-/pacote-13.6.1.tgz#ac6cbd9032b4c16e5c1e0c60138dfe44e4cc589d"
   integrity sha512-L+2BI1ougAPsFjXRyBhcKmfT016NscRFLv6Pz5EiNf1CCFJFU0pSKKQwsZTyAQB+sTuUL4TyFyp6J1Ork3dOqw==
